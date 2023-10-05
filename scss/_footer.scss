@@ -1,0 +1,25 @@
+footer {
+    h3 {
+        color: cadetblue;
+        margin-bottom: px;
+    }
+
+    font-size: 10px;
+}
+
+.containe {
+    color: $color-verde;
+    background-color: aqua;
+    background: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4));
+    font-size: 98%;
+}
+
+.py-5 {
+    margin-left: 3%;
+}
+
+/*prueba de footer cambiar color a las letras azules*/
+
+.colorButton {
+    background-color: $color-verde;
+}

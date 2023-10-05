@@ -1,0 +1,21 @@
+.maps {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+
+iframe {
+    border-radius: 20px;
+
+}
+
+.bodyNosotros {
+    background: $background-transparencia, url(../imagenes/imagen-body3.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}

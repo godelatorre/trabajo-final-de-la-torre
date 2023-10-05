@@ -1,0 +1,42 @@
+/*trabajo con nuestros clientes*/
+
+.bodyNuestrosclientes {
+    background: $background-transparencia, url(../imagenes/bodyClientes.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel-item img {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 5%;
+    @include flex-centrado;
+}
+
+.imagennuestrosclientes {
+    @include flex-centrado;
+}
+
+.contenedorclientes {
+    @include flex-centrado;
+    padding: 5%;
+    box-shadow: 5px;
+}
+
+
+@keyframes subTitulo4 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.subTitulo4 {
+    animation-name: subTitulo;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+}

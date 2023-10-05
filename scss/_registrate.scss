@@ -1,0 +1,66 @@
+/*trabajo en el mapa seccion registrate*/
+
+/*trabajo el formulario*/
+
+
+.bodyRegistrate {
+    background: $background-transparencia, url(../imagenes/body-5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    @include flex-centrado;
+    padding: 20px;
+}
+
+.cuadro1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuadro2 {
+    @include flex-centrado;
+}
+
+.boton1 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.boton2 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.columna1 {
+    border-style: solid;
+    color: gray;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+/*formulario registrate*/
+
+
+label {
+    color: rgb(255, 255, 0);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+input {
+    background: linear-gradient(rgba(75, 103, 173, 0.4), rgba(5, 7, 12, 0.4));
+}
+
+textarea {
+    background: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4));
+}
